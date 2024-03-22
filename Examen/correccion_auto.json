@@ -1,7 +1,7 @@
 {
     "ejercicios": {
         "1": {
-            "funcion": "lista",
+            "funcion": "listas",
             "correcta": "[\"A. Hacer pedidos HTTP\"]",
             "puntaje": 1
         },
@@ -11,17 +11,17 @@
             "puntaje": 1
         },
         "3": {
-            "funcion": "lista",
+            "funcion": "listas",
             "correcta": "[\"C. La página es antigua\"]",
             "puntaje": 1
         },
         "4": {
-            "funcion": "lista",
+            "funcion": "listas",
             "correcta": "[\"A. Atributo\"]",
             "puntaje": 1
         },
         "5": {
-            "funcion": "lista",
+            "funcion": "listas",
             "correcta": "[\"B. Es un error del lado del servidor\", \"C. Es el código de error de un pedido HTTP\"]",
             "puntaje": 1
         },
