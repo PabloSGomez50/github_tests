@@ -1,0 +1,54 @@
+{
+    "ejercicios": {
+        "1": {
+            "funcion": "choice",
+            "correcta": "[True, False, True, False]",
+            "puntaje": 1
+        },
+        "2": {
+            "funcion": "texto",
+            "correcta": "//div[@class='content']/p",
+            "puntaje": 1
+        },
+        "3": {
+            "funcion": "choice",
+            "correcta": "[False, False, True, False]",
+            "puntaje": 1
+        },
+        "4": {
+            "funcion": "choice",
+            "correcta": "[True, False, False, False]",
+            "puntaje": 1
+        },
+        "5": {
+            "funcion": "choice",
+            "correcta": "[False, True, True, False]",
+            "puntaje": 1
+        },
+        "6": {
+            "funcion": "listas",
+            "correcta": "['813h19djasdj293j ', '283h1fa93ns8dj3a ', '29283hdj37g9J2s6']",
+            "puntaje": 1
+        },
+        "7": {
+            "funcion": "lista_links",
+            "correcta": "https://www.ambito.com/",
+            "puntaje": 1
+        },
+        "8": {
+            "funcion": "diccionario",
+            "correcta": "{'alive': 10, 'dead': 5, 'unknown': 4}",
+            "puntaje": 1
+        },
+        "9": {
+            "funcion": "diccionario",
+            "correcta": "{'csvs': ['mnist_test.csv', 'mnist_train_small.csv', 'california_housing_test.csv', 'california_housing_train.csv'], 'mds': ['README.md'], 'jsons': ['anscombe.json']}",
+            "puntaje": 1
+        },
+        "10": {
+            "funcion": "lista_links",
+            "correcta": "https://shop.tesla.com/content/",
+            "puntaje": 1
+        }
+    }
+}

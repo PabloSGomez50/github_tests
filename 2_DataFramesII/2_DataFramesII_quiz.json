@@ -1,0 +1,74 @@
+{
+    "Question":{
+        "0":"\u00bfC\u00f3mo se define un Dataset en PySpark?",
+        "1":"\u00bfQu\u00e9 caracter\u00edstica hace a los Datasets especialmente atractivos para escribir grandes aplicaciones de Spark?",
+        "2":"\u00bfQu\u00e9 modelo de Spark es \"type-safe\"?",
+        "3":"\u00bfCu\u00e1ndo se utilizan los UDF (User Defined Functions) en Spark?",
+        "4":"\u00bfQu\u00e9 es un Shuffle Join en Spark?",
+        "5":"\u00bfC\u00f3mo podr\u00edas optimizar un join entre una tabla grande y una peque\u00f1a en Spark?",
+        "6":"\u00bfQu\u00e9 es el Catalog en Spark SQL?",
+        "7":"\u00bfQu\u00e9 diferencias existen entre un Dataframe y una Tabla en Spark SQL?",
+        "8":"\u00bfQu\u00e9 es Hive Context en Spark?",
+        "9":"\u00bfPor qu\u00e9 se recomienda no usar normalmente SQL Context y Hive Context en Spark?"
+    },
+    "Answer 1":{
+        "0":"Es un tipo de RDD.",
+        "1":"Son f\u00e1ciles de implementar.",
+        "2":"RDD",
+        "3":"Cuando queremos utilizar funciones predefinidas de Spark.",
+        "4":"Es cuando Spark hace una copia de la tabla m\u00e1s peque\u00f1a en cada uno de los nodos workers.",
+        "5":"Usando la estrategia del Broadcast Join.",
+        "6":"Es un tipo de join.",
+        "7":"Los Dataframes son mutables y las Tablas no.",
+        "8":"Es una forma de ejecutar consultas SQL en Spark.",
+        "9":"Porque son demasiado complejos de usar."
+    },
+    "Answer 2":{
+        "0":"Es una estructura de datos fundamental que no est\u00e1 disponible en Python.",
+        "1":"No puedes ver accidentalmente los objetos en un Dataset como si fueran de otra clase.",
+        "2":"Dataset",
+        "3":"Cuando queremos extender las funciones del framework de Spark.",
+        "4":"Es un tipo especial de join que solo se utiliza con tablas grandes.",
+        "5":"Utilizando un Shuffle Join.",
+        "6":"Es la principal estructura de datos de Spark SQL.",
+        "7":"Las Tablas solo contienen tipos de datos primitivos, mientras que los Dataframes pueden contener cualquier objeto.",
+        "8":"Proporciona una compatibilidad para trabajar con el almacenamiento de metadatos de Hive en Spark.",
+        "9":"Porque no proporcionan ninguna mejora en el rendimiento."
+    },
+    "Answer 3":{
+        "0":"Es igual que un Dataframe.",
+        "1":"Son m\u00e1s r\u00e1pidos que los RDDs.",
+        "2":"Dataframe",
+        "3":"Cuando queremos realizar operaciones m\u00e1s complejas en un Dataframe.",
+        "4":"Es cuando cada uno de los nodos se comunica con todos y cada uno de los otros nodos, lo que suele ser una operaci\u00f3n costosa.",
+        "5":"Dejar que Spark decida la mejor estrategia.",
+        "6":"Es una abstracci\u00f3n para el almacenamiento de metadata sobre la data almacenada en tus tablas.",
+        "7":"Los Dataframes son siempre distribuidos, mientras que las Tablas pueden ser locales.",
+        "8":"Es una forma de optimizar las consultas en Spark.",
+        "9":"Porque son obsoletos y han sido reemplazados por SparkSession."
+    },
+    "Answer 4":{
+        "0":"Es una funci\u00f3n definida por el usuario.",
+        "1":"Son m\u00e1s eficientes que los Dataframes.",
+        "2":"Todos los anteriores",
+        "3":"Todos los anteriores",
+        "4":"Es un tipo de join que solo se utiliza con tablas peque\u00f1as.",
+        "5":"Ninguna de las anteriores.",
+        "6":"Es una forma de optimizar el rendimiento de las consultas.",
+        "7":"Se define un Dataframe en el Scope del lenguaje de programaci\u00f3n, mientras que la Tabla se define a nivel de la Base de Datos.",
+        "8":"Es una interfaz para conectarse a bases de datos SQL en Spark.",
+        "9":"Porque Spark 2.X combin\u00f3 las dos API's en el SparkSession centralizado."
+    },
+    "Correct answer(s)":{
+        "0":"2",
+        "1":"2",
+        "2":"2",
+        "3":"2",
+        "4":"3",
+        "5":"1",
+        "6":"3",
+        "7":"4",
+        "8":"2",
+        "9":"4"
+    }
+}

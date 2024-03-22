@@ -1,0 +1,74 @@
+{
+    "Question":{
+        "0":"\u00bfQu\u00e9 es Apache Spark?",
+        "1":"\u00bfCu\u00e1l de los siguientes NO es un tipo de Cluster Manager aceptado por Apache Spark?",
+        "2":"En Apache Spark, \u00bfqu\u00e9 es una transformaci\u00f3n?",
+        "3":"\u00bfQu\u00e9 operaci\u00f3n en Apache Spark se conoce como \"Shuffle\"?",
+        "4":"\u00bfCu\u00e1l es la salida de un programa de Acciones en Apache Spark?",
+        "5":"\u00bfCu\u00e1l es la plataforma que se utiliza para monitorear el progreso de las tareas ejecutadas por Spark?",
+        "6":"\u00bfCu\u00e1l de los conceptos en Apache Spark representa la conexi\u00f3n al Spark Cluster?",
+        "7":"\u00bfSi se necesita manipular particiones manualmente en Spark, \u00bfqu\u00e9 estructura se utiliza?",
+        "8":"En Apache Spark, \u00bfqu\u00e9 es SparkSession?",
+        "9":"\u00bfCu\u00e1l es la funci\u00f3n de Worker en Apache Spark?"
+    },
+    "Answer 1":{
+        "0":"Una biblioteca de JavaScript",
+        "1":"Standalone",
+        "2":"Es un operador que crea un nuevo Dataframe a partir de uno existente.",
+        "3":"Narrow Dependencies Transformations",
+        "4":"Un nuevo RDD",
+        "5":"SparkStack",
+        "6":"Driver",
+        "7":"RDD",
+        "8":"Un software de Adobe",
+        "9":"Administrar el cluster de servidores"
+    },
+    "Answer 2":{
+        "0":"Una base de datos en la nube",
+        "1":"Mesos",
+        "2":"Es el proceso de dividir los datos en chunks llamados particiones.",
+        "3":"Wide Dependencies Transformations",
+        "4":"Un Cluster Manager ",
+        "5":"Apache",
+        "6":"Executor",
+        "7":"DataFrames",
+        "8":"Un punto de acceso unificado a distintas funcionalidades de Spark",
+        "9":"Crear Dataframes"
+    },
+    "Answer 3":{
+        "0":"Un software de Adobe",
+        "1":"Kubernetes",
+        "2":"Es una clase definida en el paquete de ```pyspark.sql```.",
+        "3":"Lazy Evaluation",
+        "4":"Un n\u00famero entero",
+        "5":"Scala",
+        "6":"SparkContext",
+        "7":"Particiones",
+        "8":"Un punto de acceso para el Cluster Manager",
+        "9":"Realizar transformaciones y acciones"
+    },
+    "Answer 4":{
+        "0":"Un framework de c\u00f3digo abierto para ejecutar c\u00f3digo de manera paralela en m\u00e1quinas diferentes",
+        "1":"MongoDB",
+        "2":"Todas las anteriores.",
+        "3":"Persistencia",
+        "4":"Todas las anteriores.",
+        "5":"Spark UI",
+        "6":"Cluster Manager",
+        "7":"SparkContext",
+        "8":"Un operador que crea un nuevo Dataframe a partir de uno existente",
+        "9":"Ejecutar programas en el cluster"
+    },
+    "Correct answer(s)":{
+        "0":"4",
+        "1":"4",
+        "2":"4",
+        "3":"2",
+        "4":"4",
+        "5":"4",
+        "6":"3",
+        "7":"2",
+        "8":"2",
+        "9":"4"
+    }
+}

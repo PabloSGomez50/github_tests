@@ -1,0 +1,29 @@
+name: update_classes_into_drive
+
+on:
+  # push:
+  workflow_dispatch:
+
+env:
+  GPT_API_KEY: ${{ secrets.GPT_API_KEY }}
+  GPT_MODEL: gpt-4-0125-preview
+  GPT_MAX_PROMPT: 20000
+
+jobs:
+  update-drive:
+    
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+    - name: Instalar dependencias
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas

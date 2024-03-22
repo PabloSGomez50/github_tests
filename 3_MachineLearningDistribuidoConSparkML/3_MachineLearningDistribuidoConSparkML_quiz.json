@@ -1,0 +1,74 @@
+{
+    "Question":{
+        "0":"\u00bfQu\u00e9 es MLlib en el contexto de Apache Spark?",
+        "1":"Lo objetos de tipo 'Transformer' en MLlib, con respecto a los DataFrames, son:",
+        "2":"\u00bfQu\u00e9 es un estilo de aprendizaje supervisado en Machine Learning?",
+        "3":"\u00bfPara qu\u00e9 se utiliza el m\u00f3dulo 'Summarizer' en Spark?",
+        "4":"\u00bfCu\u00e1l es el prop\u00f3sito de la transformaci\u00f3n de datos en el contexto de Machine Learning?",
+        "5":"\u00bfQu\u00e9 implica si un modelo de aprendizaje autom\u00e1tico est\u00e1 'sobreajustado' u 'overfitting'?",
+        "6":"\u00bfQu\u00e9 es un 'Pipeline' en el contexto de Machine Learning con Spark?",
+        "7":"\u00bfQu\u00e9 es la Cross Validation en contextos de Machine Learning?",
+        "8":"\u00bfCu\u00e1ndo se usa MinMaxScaler en el contexto de la transformaci\u00f3n de datos en MLlib?",
+        "9":"\u00bfCu\u00e1l es el prop\u00f3sito del tensor de hiperpar\u00e1metros en Machine Learning?"
+    },
+    "Answer 1":{
+        "0":"Es el m\u00f3dulo de bases de datos",
+        "1":"Algoritmos que crean nuevos DataFrames a partir de cero",
+        "2":"Clasificaci\u00f3n",
+        "3":"Para normalizar las escalas de los features",
+        "4":"Convertir los datos en una estructura m\u00e1s compacta",
+        "5":"No ha aprendido lo suficiente de los datos de entrenamiento",
+        "6":"Es una forma de guardar modelos",
+        "7":"Es un proceso para entrenar el modelo con nuevos datos constantemente",
+        "8":"Cuando se necesita convertir palabras en vectores num\u00e9ricos",
+        "9":"Optimizar la eficiencia de la carga de datos"
+    },
+    "Answer 2":{
+        "0":"Es el m\u00f3dulo de streaming en tiempo real",
+        "1":"Algoritmos que filtran datos de un DataFrame",
+        "2":"Filtrado Colaborativo",
+        "3":"Para tokenizar textos en unidades m\u00e1s chicas",
+        "4":"Hacer los datos m\u00e1s legibles para los humanos",
+        "5":"Ha aprendido demasiado de los datos de entrenamiento",
+        "6":"Es una forma de tunear hiperpar\u00e1metros",
+        "7":"Es un proceso para modificar los hiperpar\u00e1metros del modelo durante el entrenamiento",
+        "8":"Cuando se necesita dividir textos en unidades m\u00e1s peque\u00f1as",
+        "9":"Mejorar la eficiencia del modelo en tiempo de ejecuci\u00f3n"
+    },
+    "Answer 3":{
+        "0":"Es la biblioteca de machine learning",
+        "1":"Algoritmos que pueden transformar un DataFrame en otro",
+        "2":"Frequent Pattern Mining",
+        "3":"Para generar m\u00e9tricas \u00fatiles para explorar los datos",
+        "4":"Preparar los datos para su almacenamiento a largo plazo",
+        "5":"Ha aprendido la cantidad correcta de los datos de entrenamiento",
+        "6":"Es una forma de encadenar varios transformadores y estimadores",
+        "7":"Es un proceso para determinar la cantidad de capas en una red neuronal",
+        "8":"Cuando se necesita trabajar con datos categ\u00f3ricos de alta cardinalidad",
+        "9":"Encontrar la mejor configuraci\u00f3n posible para los par\u00e1metros del algoritmo de ML"
+    },
+    "Answer 4":{
+        "0":"Es la biblioteca de parsing XML",
+        "1":"Algoritmos que realizan clasificaci\u00f3n en los DataFrames",
+        "2":"Clusterizaci\u00f3n",
+        "3":"Para transformar palabras en vectores num\u00e9ricos",
+        "4":"Hacer los datos m\u00e1s apropiados para usar en algoritmos de ML",
+        "5":"No ha aprendido nada de los datos de entrenamiento",
+        "6":"Es una forma de realizar carga de datos",
+        "7":"Es un proceso para evaluar la generabilidad de un modelo por medio de promediar sus desempe\u00f1os en distintos subconjuntos del dataset",
+        "8":"Cuando se necesita normalizar las escalas de los features",
+        "9":"Mejorar la eficiencia de la persistencia del modelo"
+    },
+    "Correct answer(s)":{
+        "0":"3",
+        "1":"3",
+        "2":"1",
+        "3":"3",
+        "4":"4",
+        "5":"2",
+        "6":"3",
+        "7":"4",
+        "8":"4",
+        "9":"3"
+    }
+}

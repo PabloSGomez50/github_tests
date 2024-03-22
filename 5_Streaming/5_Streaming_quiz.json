@@ -1,0 +1,74 @@
+{
+    "Question":{
+        "0":"\u00bfQu\u00e9 es Apache Spark?",
+        "1":"\u00bfQu\u00e9 representa un DStream en Spark?",
+        "2":"\u00bfPara qu\u00e9 se utiliza un StreamingContext en Spark?",
+        "3":"En StreamingContext(sc, 1), \u00bfqu\u00e9 representa el n\u00famero 1?",
+        "4":"\u00bfCu\u00e1l es un beneficio de usar un \u00fanico motor de ejecuci\u00f3n y modelo de programaci\u00f3n para los procesos de streaming y lote en Spark?",
+        "5":"\u00bfQu\u00e9 son los \"Receivers\" en el contexto de Spark Streaming?",
+        "6":"\u00bfA qu\u00e9 se refiere un \"topic\" en Apache Kafka?",
+        "7":"\u00bfC\u00f3mo se escalan los mensajes en Kafka?",
+        "8":"\u00bfQu\u00e9 son las r\u00e9plicas en Kafka?",
+        "9":"\u00bfQu\u00e9 es Kafka?"
+    },
+    "Answer 1":{
+        "0":"Un lenguaje de programaci\u00f3n",
+        "1":"Un archivo de datos grande ",
+        "2":"Para enviar datos como un stream ",
+        "3":"El n\u00famero de nodos en el cluster ",
+        "4":"Mejora la interfaz de usuario",
+        "5":"Objetos que emiten datos a un stream ",
+        "6":"A una cadena de caracteres espec\u00edfica para buscar en los mensajes",
+        "7":"Aumentando el tama\u00f1o de los mensajes",
+        "8":"Son copias de los consumidores",
+        "9":"Un sistema operativo"
+    },
+    "Answer 2":{
+        "0":"Una librer\u00eda de Python",
+        "1":"Una operaci\u00f3n de streaming en tiempo real ",
+        "2":"Para hacer consultas SQL en un stream ",
+        "3":"El n\u00famero de transmisiones simult\u00e1neas permitidas ",
+        "4":"Mejora las capacidades de procesamiento de im\u00e1genes ",
+        "5":"Clases que manejan el procesamiento de datos ",
+        "6":"A un tipo espec\u00edfico de mensaje",
+        "7":"Reduciendo el tiempo de latencia",
+        "8":"Son versiones alternativas de los mensajes",
+        "9":"Un sistema de streaming de eventos distribuido"
+    },
+    "Answer 3":{
+        "0":"Un sistema de gesti\u00f3n de bases de datos",
+        "1":"Un flujo de datos dividido en lotes peque\u00f1os ",
+        "2":"Para procesar im\u00e1genes en tiempo real",
+        "3":"El n\u00famero de segundos con el que Spark agrupar\u00e1 los datos entrantes",
+        "4":"Permite una r\u00e1pida recuperaci\u00f3n de fallas ",
+        "5":"Objetos que reciben datos de un stream ",
+        "6":"A una canal donde los usuarios escriben y leen mensajes",
+        "7":"Distribuyendo equitativamente los mensajes entre los consumidores dentro de un grupo",
+        "8":"Son copias del broker",
+        "9":"Un lenguaje de programaci\u00f3n"
+    },
+    "Answer 4":{
+        "0":"Un sistema de procesamiento de datos escalable",
+        "1":"Un programa de an\u00e1lisis de datos",
+        "2":"Para inicializar aplicaciones de Spark Streaming",
+        "3":"El n\u00famero de threads que se usar\u00e1n para el procesamiento",
+        "4":"Hace que el c\u00f3digo sea m\u00e1s f\u00e1cil de leer",
+        "5":"Operadores que transforman los datos de un stream",
+        "6":"A un conjunto de reglas para procesar mensajes",
+        "7":"Enviando todos los mensajes a un consumidor espec\u00edfico",
+        "8":"Son copias de las particiones",
+        "9":"Un servicio de almacenamiento en la nube"
+    },
+    "Correct answer(s)":{
+        "0":"4",
+        "1":"3",
+        "2":"4",
+        "3":"3",
+        "4":"3",
+        "5":"3",
+        "6":"3",
+        "7":"3",
+        "8":"4",
+        "9":"2"
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "1_DataFramesI": {
+        "name": "1_DataFramesI",
+        "video_urls": [],
+        "long_description": "DESCRIPCION\nEsta clase se enfoca en la introducci\u00f3n al uso de PySpark, un open-source framework para programar Spark con Python, utilizado para procesamiento de datos distribuidos en un cluster. Adem\u00e1s, se estudiar\u00e1n las bases de las pr\u00e1cticas de big data, incluyendo conceptos clave como SparkSession, SparkContext, y operaciones de DataFrames.\n\n\nTEMAS\n- Introducci\u00f3n a Apache Spark y PySpark.\n- Explicaci\u00f3n y uso de SparkSession y SparkContext.\n- Conceptos esenciales: Driver, Workers, Executor y particiones.\n- Detalles del manejo de clusters en Spark con Cluster Manager.\n- Introducci\u00f3n a los RDD (Resilient Distributed Dataset).\n- Transformaciones y acciones en Spark: Narrow y Wide Dependencies.\n- Persistencia y variables de Broadcast en almacenamiento de datos.\n- Uso de Spark UI para monitoreo de tareas y debugging.\n\n\nHABILIDADES \nEsta clase brinda habilidades fundamentales en el uso de PySpark para administrar y procesar big data efectivamente, incluyendo el conocimiento de las estructuras de datos, optimizaci\u00f3n de flujos de trabajo y supervisi\u00f3n de tareas. Adem\u00e1s, se ense\u00f1a la importancia del almacenamiento eficiente y el uso de variables de Broadcast.",
+        "ipynbs": {
+            "Introduccio\u0301n_a_Spark___Pyspark": "https://colab.research.google.com/drive/1JfAhqFnVsA_oWq2-TY06ckoZQPS4Gae0",
+            "ejercicios_clase_1": "https://colab.research.google.com/drive/1lsL3iUqL7gsK8XYMfzdedsFPBocAYXUL",
+            "ejercicios_clase_1_solucion": "https://colab.research.google.com/drive/1ELyzMS2fbSiX3ZKLYonfUKjp7rsnZTcU",
+            "ejercicios_vivo_clase_1": "https://colab.research.google.com/drive/14YR6bqUyDGriQTjAErOfSN-txoMcwf3T",
+            "ejercicios_vivo_clase_1_solucion": "https://colab.research.google.com/drive/1V1t0GjGXiJlNbudRNjAfhzkIFkKPh2Tr"
+        },
+        "materials": {}
+    },
+    "2_DataFramesII": {
+        "name": "2_DataFramesII",
+        "video_urls": [],
+        "long_description": {
+            "intro": "Esta clase se adentra en conceptos avanzados de DataFrames en PySpark. Los estudiantes aprender\u00e1n a manipular, leer y escribir DataFrames distribuidos, mientras discuten temas como la uni\u00f3n de tablas y las diferencias entre Datasets y DataFrames. Tambi\u00e9n se discuten las funciones definidas por el usuario (UDF) y su impacto en mejorar la eficiencia de las aplicaciones de Spark.",
+            "temas": [
+                "Importaci\u00f3n de SparkSession y creaci\u00f3n de DataFrames",
+                "Diferencias entre Datasets y DataFrames en PySpark",
+                "Creaci\u00f3n y procesamiento manual de DataFrames",
+                "Filtraci\u00f3n de registros y manejo de valores nulos",
+                "Agrupaci\u00f3n y reducci\u00f3n de datos",
+                "Escritura de DataFrames a CSV",
+                "Interpretaci\u00f3n de la estrategia de uni\u00f3n de tablas y su impacto en el rendimiento",
+                "Creaci\u00f3n y uso de funciones definidas por el usuario (UDF)",
+                "Introducci\u00f3n a SparkSQL y sus conceptos clave como Cat\u00e1logo, Tablas, UDF y UDAF",
+                "Compatibilidad de SparkSQL con Hive Context y SQL Context"
+            ],
+            "outro": "Los estudiantes tomar\u00e1n lo aprendido en esta clase para manipular eficientemente grandes conjuntos de datos utilizando la potencia de PySpark. Aprender\u00e1n sobre la optimizaci\u00f3n de las operaciones de uni\u00f3n y utilizar\u00e1n UDF para la personalizaci\u00f3n y eficiencia de sus tareas de procesamiento de datos."
+        },
+        "ipynbs": {
+            "Material - API_estructurada_PySpark Clase 2": "https://colab.research.google.com/drive/1NTRVKQca2ZqSsgKdQov53QFk1JEs-JnW",
+            "ejercicios_clase_2": "https://colab.research.google.com/drive/112g4KMIbx3ZZSgyTxQ901Qa0CrdzYxJS",
+            "ejercicios_clase_2_solucion": "https://colab.research.google.com/drive/1_b9SXoRNwmQGlS90QJmUNDooLvqMh5FR",
+            "ejercicios_vivo_clase_2": "https://colab.research.google.com/drive/1tBXjeujxs4dWViUBMWY1VJgY8iFgrXI8",
+            "ejercicios_vivo_clase_2_solucion": "https://colab.research.google.com/drive/1C-edGHoD7i1lTHMNXL9KnHJg4r-qkr75"
+        },
+        "materials": {}
+    },
+    "3_MachineLearningDistribuidoConSparkML": {
+        "name": "3_MachineLearningDistribuidoConSparkML",
+        "video_urls": [],
+        "long_description": {
+            "intro": "En esta clase, exploramos las funcionalidades de MLlib, la biblioteca de Machine Learning de Spark. Abordamos su uso en tareas de ML escalables, su conjunto de transformadores y estimaciones y el dise\u00f1o de flujos de trabajo de ML. Adicionalmente, realizamos ejercicios pr\u00e1cticos utilizando el dataset Iris para poner en juego los m\u00faltiples aspectos de la biblioteca.",
+            "temas": [
+                "Introducci\u00f3n a MLlib y su funcionalidad en Machine Learning.",
+                "Utilizaci\u00f3n de transformadores y estimadores en MLlib.",
+                "Dise\u00f1o de flujos de trabajo en Machine Learning con pipelines.",
+                "An\u00e1lisis de datos distribuidos con Spark usando el dataset Iris.",
+                "Estad\u00edsticas descriptivas utilizando el objeto Summarizer.",
+                "Introducci\u00f3n a t\u00e9cnicas de clasificaci\u00f3n con MLlib.",
+                "Transformaci\u00f3n de datos.",
+                "Entrenamiento y evaluaci\u00f3n de modelos.",
+                "Uso de cross-validation para el afinamiento de hiperpar\u00e1metros.",
+                "Persistencia de modelos.",
+                "Creaci\u00f3n y uso de ML Pipelines."
+            ],
+            "outro": "Este m\u00f3dulo amplitudar\u00e1 tus habilidades de an\u00e1lisis de datos distribuidos, integrando Machine Learning y t\u00e9cnicas de an\u00e1lisis estad\u00edstico. Conocer\u00e1s c\u00f3mo usar Spark MLlib para dise\u00f1ar flujos de trabajo de ML, realizar clasificaciones y transformaciones de datos, as\u00ed como para refinar y persistir tus modelos."
+        },
+        "ipynbs": {
+            "Machine_Learning_Distribuido_con_Spark_": "https://colab.research.google.com/drive/1eEK5hf5fc17z5s8pU_AeSAc5hRyxOq--",
+            "ejercicios_clase_3a": "https://colab.research.google.com/drive/1EoDr7hsMmJ6RHuZV9CIReMeMVZiu6ZXa",
+            "ejercicios_clase_3a_solucion": "https://colab.research.google.com/drive/1hrRkv63czC_x21QU2FaRzUZqmnbMwFF2",
+            "ejercicios_clase_3b": "https://colab.research.google.com/drive/18FqN2Iu1NvVoDFqotlzstf56nluGr-Bo",
+            "ejercicios_clase_3b_solucion": "https://colab.research.google.com/drive/1GMaEaEU2vvJG6NPHWwwnkq8VrvrnmT-h",
+            "ejercicios_vivo_clase_3": "https://colab.research.google.com/drive/1-n_zt5dZTSmJZ83EdM3s3rrNj1Dq6dZI",
+            "ejercicios_vivo_clase_3_solucion": "https://colab.research.google.com/drive/1f-mkJjVxLuZP3Jl0T2ZYnTNqGnAdtO8u"
+        },
+        "materials": {}
+    },
+    "4_Deploy": {
+        "name": "4_Deploy",
+        "video_urls": [],
+        "long_description": {
+            "intro": "En la cuarta clase de Big Data con PySpark, nos adentramos en el despliegue de modelos usando PMML (Predictive Model Markup Language). A lo largo de esta sesi\u00f3n, los estudiantes aprender\u00e1n a construir soluciones de an\u00e1lisis predictivo y entender\u00e1n c\u00f3mo intercambiar modelos entre diferentes plataformas usando PMML y Spark.",
+            "temas": [
+                "Motivaci\u00f3n: Nociones en tiempo real para machine learning.",
+                "PMML: Conceptos, componentes y usos.",
+                "Creaci\u00f3n de un cluster de Spark con dependencias.",
+                "Preprocesamiento de datos para modelado.",
+                "Entrenamiento de modelos y pruebas con conjuntos de datos.",
+                "Persistencia del modelo usando PMML.",
+                "Tipos de servidores para modelar en tiempo real: OpenScoring y MLeap.",
+                "Concepto de \"Localidad de los Datos\".",
+                "Menciones honorables: Tensorflow Extended, Tensorflow Serving, KubeFLow, ONNX, TensorRT."
+            ],
+            "outro": "Despu\u00e9s de esta clase, los estudiantes podr\u00e1n persistir y servir modelos en tiempo real, as\u00ed como comprender el procesamiento de datos a gran escala con Spark. Ser\u00e1n capaces de aplicar PMML para intercambiar modelos predictivos entre diferentes plataformas de manera eficiente."
+        },
+        "ipynbs": {
+            "Despliegue_de_modelos_MLlib_para_an\u00e1lisis_real_time": "https://colab.research.google.com/drive/1D-kXg03oL98vt5X9d_z-vi63k-g-rxrT",
+            "ejercicios_clase_4": "https://colab.research.google.com/drive/1yTfcFfo4wTPbzbeglqhAIm2Nh7Dsx4wj",
+            "ejercicios_clase_4_solucion": "https://colab.research.google.com/drive/1xwT8JWLZmiu4VJyJdOmdGsSQuXpW3Y9U",
+            "ejercicios_vivo_clase_4": "https://colab.research.google.com/drive/1ieBvLR6Ffgy6X_J0a-878cLPn-viJZWn",
+            "ejercicios_vivo_clase_4_solucion": "https://colab.research.google.com/drive/1qEWOarenKOGHrbZECr7jwJI6dFjCOPJ_"
+        },
+        "materials": {}
+    },
+    "5_Streaming": {
+        "name": "5_Streaming",
+        "video_urls": [],
+        "long_description": {
+            "intro": "En la clase 5 de nuestro curso de Big Data con PySpark, nos sumergiremos en Spark Streaming para procesar datos en tiempo real. Hablaremos sobre la arquitectura y caracter\u00edsticas clave de Spark Streaming, la integraci\u00f3n con otros componentos de Spark, as\u00ed como la aplicaci\u00f3n de Kafka como un sistema de streaming de eventos. Tambi\u00e9n profundizaremos en la localidad de datos y c\u00f3mo afecta la capacidad de rendimiento de Spark.",
+            "temas": [
+                "\u00bfQu\u00e9 es Spark Streaming y c\u00f3mo funciona?",
+                "Introducci\u00f3n a Kafka y su arquitectura.",
+                "Uso de Kafka con Spark para streaming de datos en tiempo real.",
+                "Aplicaci\u00f3n de Spark para procesamiento de datos concurrentes.",
+                "Localidad de datos y su impacto en el rendimiento de Spark.",
+                "Trabajando con Jupyter Notebook para tareas de programaci\u00f3n de datos.",
+                "Dependencias e importaci\u00f3n de los datasets necesarios para los pr\u00e1cticos."
+            ],
+            "outro": "Despu\u00e9s de completar esta clase, tendr\u00e1s una s\u00f3lida comprensi\u00f3n de c\u00f3mo usar Spark y Kafka para streaming de datos en tiempo real. Adem\u00e1s, mejorar\u00e1s tus habilidades en el tratamiento de grandes conjuntos de datos utilizando Python, lo cual es esencial para cualquier carrera en ciencia de datos."
+        },
+        "ipynbs": {
+            "Spark_Streaming": "https://colab.research.google.com/drive/1vO_Eu0kDIi-C3YdUF7kyA6F8EkT1GcoJ",
+            "ejercicios_clase_5": "https://colab.research.google.com/drive/1bufDxfgmeqJlpQsB2X49W-l8Jbjgu1C0",
+            "ejercicios_clase_5_solucion": "https://colab.research.google.com/drive/1rd9GgwSMCEQnd4pzm0U3DbtautrIRUPf",
+            "ejercicios_vivo_clase_5": "https://colab.research.google.com/drive/134fDANCu8vCBF02YCfbm_dA2npb40IDm",
+            "ejercicios_vivo_clase_5_solucion": "https://colab.research.google.com/drive/18bM4LzDsAMAo1_wxfz3-yVoNCZkUkOC5"
+        },
+        "materials": {}
+    }
+}

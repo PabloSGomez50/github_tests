@@ -1,0 +1,74 @@
+{
+    "Question":{
+        "0":"\u00bfQu\u00e9 significa PMML en la clase de machine learning?",
+        "1":"\u00bfQu\u00e9 contiene exactamente el \"Header\" o \"Cabecera\" en el archivo PMML?",
+        "2":"\u00bfQu\u00e9 realiza la \"Normalizaci\u00f3n\" en las \"Transformaciones de Datos\" de un archivo PMML?",
+        "3":"\u00bfQu\u00e9 es el \"Mining Schema\" en un archivo PMML?",
+        "4":"\u00bfCu\u00e1l de las siguientes afimaciones sobre el \"RandomForestClassifier\" es correcta?",
+        "5":"\u00bfQu\u00e9 es OpenScoring?",
+        "6":"\u00bfCu\u00e1l es el concepto de \"Data Locality\" o \"Localidad de la Data\" en Spark?",
+        "7":"\u00bfQu\u00e9 es \"shuffling\" en el contexto de Spark y la localidad de los datos?",
+        "8":"En el contexto de Spark, \u00bfqu\u00e9 significa \"local[*]\" al crear el cluster de Spark?",
+        "9":"\u00bfQu\u00e9 no es una soluci\u00f3n popular para servir modelos de machine learning en tiempo real como se menciona en clase?"
+    },
+    "Answer 1":{
+        "0":"Predictive Machine Markup Language",
+        "1":"El modelo de machine learning",
+        "2":"Mapea valores a numeros (continuos o discretos)",
+        "3":"Contiene informaci\u00f3n sobre el modelo como nombre, funci\u00f3n, algoritmo, funci\u00f3n de activaci\u00f3n y n\u00famero de capas",
+        "4":"Es uno de los algoritmos menos fiables dentro del machine learning tabular",
+        "5":"Es un servidor en Java que permite recibir el modelo como un request y luego servirlo para predicciones en tiempo real",
+        "6":"Es la capacidad de Spark para almacenar datos en diferentes nodos del cluster",
+        "7":"Es la capacidad de Spark para distribuir el procesamiento de datos en varios nodos",
+        "8":"Que el cluster decide la cantidad de threads que necesita para correr el notebook",
+        "9":"Tensorflow Serving"
+    },
+    "Answer 2":{
+        "0":"Predictive Model Markup Language",
+        "1":"Una lista de todas las variables usadas en el modelo",
+        "2":"Mapea valores continuos a discretos",
+        "3":"Es una lista de todas las variables utilizadas en el modelo",
+        "4":"Es uno de los algoritmos m\u00e1s robustos dentro del machine learning tabular",
+        "5":"Es un algoritmo de machine learning",
+        "6":"Es m\u00e1s costo-eficiente mover los c\u00e1lculos a donde se encuentra la data que mover la data a donde se realizar\u00e1n los c\u00e1lculos",
+        "7":"Es el uso de memoria cach\u00e9 para mejorar el rendimiento del proceso de c\u00e1lculo de Spark",
+        "8":"Que Spark est\u00e1 configurado para ejecutar en modo local en una m\u00e1quina individual",
+        "9":"MLeap"
+    },
+    "Answer 3":{
+        "0":"Predictive Model Machine Language",
+        "1":"Informaci\u00f3n general del documento PMML",
+        "2":"Mapea valores discretos a discretos",
+        "3":"Es el proceso posterior al resultado del modelo",
+        "4":"No es apropiado para grandes conjuntos de datos",
+        "5":"Es una librer\u00eda de Python para el preprocesamiento de datos",
+        "6":"Es el proceso de mover datos de un nodo a otro dentro del cluster",
+        "7":"Es cuando los datos de una m\u00e1quina terminan en otra, lo cual es costoso",
+        "8":"Que Spark se ha instalado en un solo nodo local de la m\u00e1quina",
+        "9":"KubeFlow"
+    },
+    "Answer 4":{
+        "0":"Predictive Markup Model Language",
+        "1":"Transformaciones de datos",
+        "2":"Deriva un valor como resultado de una funci\u00f3n",
+        "3":"Permite la transformaci\u00f3n de data original al input deseable para el modelo",
+        "4":"Se utiliza principalmente para la clasificaci\u00f3n lineal",
+        "5":"Es un formato de archivo para guardar modelos de machine learning",
+        "6":"Es la capacidad de Spark para procesar grandes cantidades de datos r\u00e1pidamente",
+        "7":"Es la conversi\u00f3n de datos en formatos que Spark puede leer y procesar de manera eficiente",
+        "8":"Que todos los datos deben ser almacenados localmente en el nodo maestro de Spark",
+        "9":"Hadoop"
+    },
+    "Correct answer(s)":{
+        "0":"2",
+        "1":"3",
+        "2":"1",
+        "3":"2",
+        "4":"2",
+        "5":"1",
+        "6":"2",
+        "7":"3",
+        "8":"1",
+        "9":"4"
+    }
+}
