@@ -1,28 +1,28 @@
 {
     "ejercicios": {
         "1": {
-            "funcion": "choice",
-            "correcta": "[True, False, True, False]",
+            "funcion": "lista",
+            "correcta": "[\"A. Hacer pedidos HTTP\"]",
             "puntaje": 1
         },
         "2": {
             "funcion": "texto",
-            "correcta": "//div[@class='content']/p",
+            "correcta": "C. //div[@class='content']/p",
             "puntaje": 1
         },
         "3": {
-            "funcion": "choice",
-            "correcta": "[False, False, True, False]",
+            "funcion": "lista",
+            "correcta": "[\"C. La página es antigua\"]",
             "puntaje": 1
         },
         "4": {
-            "funcion": "choice",
-            "correcta": "[True, False, False, False]",
+            "funcion": "lista",
+            "correcta": "[\"A. Atributo\"]",
             "puntaje": 1
         },
         "5": {
-            "funcion": "choice",
-            "correcta": "[False, True, True, False]",
+            "funcion": "lista",
+            "correcta": "[\"B. Es un error del lado del servidor\", \"C. Es el código de error de un pedido HTTP\"]",
             "puntaje": 1
         },
         "6": {
